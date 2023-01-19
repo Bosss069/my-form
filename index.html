@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>    <!--go to smtpjs.com > tap on CDN > copy the url and past here-->
+    <!-- <script src="contact.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="images/myface2.png">
+            <h3 class="intro">I am Ansari Naveed</h3>
+            <div class="intro">web developer and electronics engineer</div>
+        </div>
+        <form action="https://formspree.io/f/xwkjprbb" method="POST">
+            <h3>Contact Form</h3>
+            <textarea name="message" id="message" rows="1" placeholder="Your Name."></textarea>
+            <input name="email" type="email" id="email" placeholder="Email Id" required>
+            <textarea name="message" id="message" rows="1" placeholder="Phone Number."></textarea>
+            <textarea name="message" id="message" rows="3" placeholder="How can I help You"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
